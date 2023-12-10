@@ -1,0 +1,123 @@
+/*
+Theme Name: PlantTree Landing
+Author: the WordPress team
+Description: PlantTree Landing - це тема лендингової сторінки яка підійде для більшості організацій, оскільки вона пропонує адаптивний інтерфейс сайту, в неї інтегровано більшість можливостей фреймворку Bootstrap, як: випадаючі списки, повідомлення, форми, стрічки прогресу, лічильники, картинки.
+Version: 1.0
+Text Domain: landing
+Tags: one-page, landing, nature, bootstrap, adaptive, flexible
+*/
+
+.team-member-photo-container {
+    height: 200px; /* Adjust the height to your desired size */
+    overflow: hidden; /* Hide any overflow beyond the specified height */
+}
+
+.team-image {
+    width: 100%; /* Ensure the width is responsive */
+    height: 100%; /* Ensure the image takes up 100% of the container height */
+    object-fit: cover; /* This property ensures the image covers the entire container while maintaining aspect ratio */
+}
+
+
+.logo-image{
+    width:40px;
+}
+
+.nav-item .nav-link{
+    font-weight: 500;
+}
+.navigation-bar{
+    z-index: 9999;
+    width:100%;
+}
+.toast-div{
+    z-index: 9999;
+}
+.nav-link:hover
+    {
+        font-weight: 600;
+    }
+
+    .navbar-brand:hover{
+        background-color: green;
+    }
+    
+
+    .mail-icon{
+        width:100px;
+    }
+
+    .about-text{
+        text-align: justify;
+    }
+
+
+    .about-image{
+        width: 100%;
+    }
+    .review-text{
+        text-align: justify;
+    }
+    .person-icon{
+        object-fit:cover;
+        border-radius: 100%;
+        height: 4rem;
+        width: 4rem;
+        overflow: hidden;
+    }
+
+    .review{
+        border-radius: 2%;
+        box-shadow: 2px 4px 15px rgba(125, 125, 125, 0.15);
+    }
+    .reviews-section p{
+        height:100px;
+        overflow:auto;
+    }
+    .news-image{
+        height:80%;
+        width:90%;
+        margin:auto;
+    }
+    .news{
+        height:450px;
+    }
+    .img-thumb-news{
+        object-fit: cover;
+        height: 50px;
+        width: 50px;
+    }
+
+
+    .green-pagination .page-link {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+    
+    .green-pagination .page-link:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+    
+    .green-pagination .page-item.active .page-link {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+    
+    .green-pagination .page-item.disabled .page-link {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+.team-image{
+    height: 400px;
+    object-fit: cover; 
+   
+}
+
+@media screen and (max-width:300px) {
+    .toast-div{
+        width: 300px;
+        margin-right:-15px;
+    }
+}
